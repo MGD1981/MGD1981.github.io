@@ -58,6 +58,17 @@
                 <tr>
                     <td bgcolor="#2C2416">
                         <ul>
+                            <li id="2014-03-04" class="devlogpost">
+                                <span class="date">03-04-2014</span>
+<br>
+I've created joints to join the different components of a weapon.  Once a joint is destroyed, the weapon would fall apart.  I ran into some trouble in actually attaching joints to their appropriate components, which I plan on resolving in the next couple of days.  I may need to rethink part of my weapon system to account for partial weapons (e.g. a flail with a handle and chain but a missing ball).<br>
+<br>
+What's perhaps more exciting, however, is that I've created a rudimentary Hero class embodying personality, experience, and perceptions.  Right now personality is composed of eight different traits, many of which will be applicable in battle, but all of which will play into the hero's decision-making while at your shop.  And although the shopkeep herself has no inherent personality traits (you get to play her however you wish), each hero contains its own instance of how it perceives the shopkeep's personality, which will not only affect how the hero interacts with you but also what the hero will tell others about you, affecting your overall reputation.<br>
+<br>
+I also laid the basic foundation for the player class and the economy class.  Each hero will also hold its own instance of a perceived economy, meaning scenarios could come into play where you could convince an out-of-towner that a weapon made of copper is actually immensely valuable.<br>
+<br>
+Going to finish joints and add a little more to the weapons class next, and then on to filling in the player class.
+                            </li>
                             <li id="2014-03-02" class="devlogpost">
                                 <span class="date">03-02-2014</span>
 <br>
