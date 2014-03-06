@@ -58,6 +58,11 @@
                 <tr>
                     <td bgcolor="#2C2416">
                         <ul>
+                            <li id="2014-03-05" class="devlogpost">
+                                <span class="date">03-05-2014</span>
+<br>
+Although I programmed myself into a corner tying to figure out how to assign these Joint objects to their appropriate Component objects, I believe this has ultimately led to an unintended innovation.  Rather than assemble components with joints into a weapon using a predetermined weapon type template, I have created component classes which know that they are only able to have connections to other specific classes.  In this way, if this works the way I think it will, my function which assembles components into weapons will simply take whatever components I give it and connect the pieces in a way that makes sense.  Once it's been created, I'll make a function that identifies it as a sword, axe, bow, what-have-you.  This way of doing things paves the road for all sorts of possibilities as I add more components to the master list.  What sorts of things would you like to attach to the ends of the flails you make?  How many axe blades would you like to attach to your elm haft?  Will have to start thinking about upper limits, and start adding some mass to materials and volume to components.
+                            </li>
                             <li id="2014-03-04" class="devlogpost">
                                 <span class="date">03-04-2014</span>
 <br>
