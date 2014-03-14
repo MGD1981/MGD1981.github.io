@@ -58,6 +58,15 @@
                 <tr>
                     <td bgcolor="#2C2416">
                         <ul>
+                            <li id="2014-03-14" class="devlogpost">
+                                <span class="date">03-14-2014</span>
+<br>
+I pared down what I'm going to start referring to as the BDOM ("Big Dictionary Of Materials"), only because a few of the things I thought would be cool and make sense to include ended up having very little information about them available -- at least that I could find.  I suppose I could make values up arbitrarily (and I have done so for a couple of the more fantastic elements), although I like that they are relatively realistic.  One could argue that some of the materials would be anachronistic, but I'd argue that just because they weren't abundant in Europe in the 1400s doesn't mean they didn't exist anywhere.<br>
+<br>
+I also created a function to procedurally generate the world terrain (i.e. the land around your town where the resource and adventuring sites will exist).  I was surprised at how much trouble I had trying to find an algorithm for the very simple 2D generation and simple patterns I wanted, so I ended up hammering out my own algorithm.  It's very inefficient, but it's not a big map, and it only needs to be created once when starting a new game (takes a couple of seconds, but should probably take a fraction of a second).  Regardless, I'm sure I won't be able to help myself from improving it.<br>
+<br>
+The coolest thing for me was being able to feed the world map to the console mapping function I wrote very early on, and actually seeing the world in colored ANSI tiles.  Shopkeep technically has graphics now.
+                            </li>
                             <li id="2014-03-12" class="devlogpost">
                                 <span class="date">03-12-2014</span>
 <br>
