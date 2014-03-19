@@ -58,6 +58,19 @@
                 <tr>
                     <td bgcolor="#2C2416">
                         <ul>
+                            <li id="2014-03-19" class="devlogpost">
+                                <span class="date">03-19-2014</span>
+<br>
+Not a whole lot to report; it's difficult when you only have a very small time to code, and not even every day.  I know I seemed gung-ho about tackling monsters, but I realized pretty quickly that fully-fleshed monsters aren't an &alpha;.0 necessity.  I do have some placeholders, although the monsters have no descriptions yet other than the name (from my name generator) and type, and have no abilities, adding significantly more randomness to the outcome of a potential battle than will be in the final verison.<br>
+<br>
+I got myself back on track with the economy.  It's quite multi-faceted, meaning it's easy to get distracted ("Oh, while I'm adding this class to each Hero which represents their individual perception of material pricing, I should also tweak this and add that..."), but I'm going to redouble my efforts in staying focused on getting it minimally working.<br>
+<br>
+Toward that goal, however, towns now get an initial population and people get different occupations as they are added to the town, and there is some logic to that assignment which will surely need changing in the future.  But basically, people become farmers until there are enough farmers to theoretically farm enough sites to feed the entire population (even though the only resources you'll see from farmers are non-food-related).  Then the rest of the folks look at the sites and see if they have any capacity left (i.e. job openings).  Every once in awhile, or if there are no jobs left at the sites, the stragglers are assigned (with weighted randomness) to become housekeepers, artisans, government officials, what-have-you.<br>
+<br>
+Occupations also now value different characteristics of materials.  This seems logical, although the only characteristics I'm currently measuring are ones relevant to weapons, so it's likely that when I start calculating values with my made-up table of material requirements for different occupations... I'll get some crazy numbers.  But that's okay.  Any starting place is as good as another.<br>
+<br>
+But before value can be expressed, we need a unit of measurement, which means I believe I'll be attacking currency next.
+                            </li>
                             <li id="2014-03-17" class="devlogpost">
                                 <span class="date">03-17-2014</span>
 <br>
