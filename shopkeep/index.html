@@ -58,6 +58,15 @@
                 <tr>
                     <td bgcolor="#2C2416">
                         <ul>
+                            <li id="2014-03-21" class="devlogpost">
+                                <span class="date">03-21-2014</span>
+<br>
+Employees at various sites should now harvest an amount (within a specified range) of resources every so many minutes of game time.  The standard coinage for the game will be copper, because copper will be the earliest resource to be able to mine and melt down.  I have placeholder functions which can convert the prices from the copper-coin denomination to silver- or gold-coin, all coins being 10 grams in weight.  I may start each town with one farm, one sawmill, and one copper mine -- at least for &alpha;.0.<br>
+<br>
+This also means that I finally have the concept of game-time.  Most game developers probably start there, although I took much intentional deliberation on whether to have most of the events be turn-based (e.g. an amount of copper would be mined every turn) or time-based.  Ultimately, I think the latter will just be more fun.  And now that I have game "ticks," I think the next thing to address will be the shop and movement around the shop, and for this I may actually implement some placeholder graphics.  But I'm not quite done with the economy, so I may finish that and start the shop in parallel; they are not entirely unrelated, and I think the shop may take a good deal of time, so I will need at least one distraction.<br>
+<br>
+And because I'm sort of treating heroes as the "workers" in adventure sites, I've also gotten to the point where heroes battle monsters and leave once the monsters have been slain (assuming they don't die).  Battles are currently empty functions, but still, I'm excited about this.
+                            </li>
                             <li id="2014-03-19" class="devlogpost">
                                 <span class="date">03-19-2014</span>
 <br>
