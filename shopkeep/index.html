@@ -58,6 +58,37 @@
                 <tr>
                     <td bgcolor="#2C2416">
                         <ul>
+                            <li id="2014-04-03" class="devlogpost">
+                                <span class="date">04-03-2014</span>
+<br>
+Sprites are rendering, and rendering where they're supposed to render.  Huzzah!<br>
+<br>
+I know I mentioned a blog post about an algorithm a little while ago.  It's still pending.  Most of it's written, but my hesitation comes from the very real possibility of someone immediately replying with, "Hey doofus, you just forgot this stupid thing," and having to suffer that embarassment for as long as that post lives in the Book of Internet, which I imagine will be the end of civilization.  So I'm taking some time to mull over it.  But don't worry; it's still just hanging out in my drafts folder waiting for finishing touches.
+                            </li>
+                            <li id="2014-03-28" class="devlogpost">
+                                <span class="date">03-28-2014</span>
+<br>
+Not much in the way of updates, as I've finally gotten around to implementing the display (not just my console display), which means I'm learning how to use PyGame and modifying my existing code to be able to use it as it should be used.  Right now I can render text to the screen, and accept and understand keyboard input outside of the console, and that's actually sort of exciting for me.  This is my first real experience with drawing to screen, so if you're following this devlog intensely, you're going to have to exercise some patience.  I know I'm very interesting, but you'll have to entertain yourselves with my old Facebook status updates or something.  There are some pretty cute pictures of our cat somewhere in there.
+                            </li>
+                            <li id="2014-03-24" class="devlogpost">
+                                <span class="date">03-24-2014</span>
+<br>
+I have created a function to give value to materials in the town based on supply and demand.  The equation for demand will certainly yield hilarious values once I actually start implementing the function, but the important thing is that the numbers used in the equation are able to be changed (both universal constants and constants specific to each material), and so price balance should be achievable.  Or maybe I'm just kidding myself and I'll end up setting material prices as constants in bitter defeat.  On the other hand, I'm kind of looking forward to the wild variance in prices different towns in different worlds will create.<br>
+<br>
+In other news, despite the fact that it is not needed for &alpha;.0 and I'm pretty sure I already declared that I stopped working on it, I slightly improved the world map generation algorithm after a conversation with friend and fellow <a href="http://hackerschool.com">Hacker School</a> alumn <a href="http://ertyseidel.com">Erty Seidel</a>, who also recommended that I post a screenshot of my gorgeous 3-color ANSI map.  For your delight, a couple of screenshots are included below the text of this post.<br>
+<br>
+However... although the algorithm gives me the terrain generation I desire, and although it is perfectly sufficient for the world-size I have in mind for SK... it is still terribly inefficient.  And as a programmer who cares about the quality of his work, this eats at my soul.  I cannot seem to wrap my head around getting these exact same results without this inefficiency, but I know in my heart it can be done.  To that end, I am planning on writing a <a href="http://thefatalistmarksman.com">Fatalist Marksman</a> blog post about this algorithm in the near future, which will hopefully encourage feedback and ideas from the readers, so look out for that soon (I'm thinking next couple of days, if life doesn't get too busy).<br>
+<br>
+I need to add a couple of things to my reference data to make the value generation function work, so I'll get to that quick task next, and then start thinking about the shop itself.  Exciting times ahead.<br>
+<br>
+Here's a screenshot of a world map when it still had a small bug in it which I hadn't identified.  Yellow tiles are grassland, green are woodland, and white are rockland.  Keep in mind that, at some point, there will be actually graphics for these tiles and not just ANSI characters:<br>
+<br>
+<center><img src="img/SK%20WorldMap%202014-03-14.png" border=1 alt="World map example as of 3/14/2014" width="100%"></center>
+<br>
+And here's one as it's supposed to be.  The white-on-black brackets are the town location:<br>
+<br>
+<center><img src="img/SK%20WorldMap%202014-03-22.png" border=1 alt="World map example as of 3/22/2014" width="100%"></center>
+                            </li>
                             <li id="2014-03-21" class="devlogpost">
                                 <span class="date">03-21-2014</span>
 <br>
