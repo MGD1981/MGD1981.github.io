@@ -1,38 +1,6 @@
 <html>
     <head>
-        <style>
-            @font-face {
-                font-family: "UbuntuMono";
-                src: url(http://matthewgregorydavis.com/fonts/UbuntuMono-R.ttf) format("truetype");
-            }
-            @font-face {
-                font-family: "UbuntuMonoBold";
-                src: url(http://matthewgregorydavis.com/fonts/UbuntuMono-B.ttf) format("truetype");
-            }
-            a {
-                color:#FFFFD0;
-                font-family: "UbuntuMonoBold";
-                text-decoration:none;
-            }
-            ul {
-                padding: 0.5em 0;
-                margin: 0;
-                clear:left;
-            }
-            li.devlogpost {
-                list-style:none inside;
-                clear: left;
-                margin-bottom: 20px;
-                padding: 5px 10px 10px 10px;
-                background:#272727;
-                color:#FFFFD0;
-                border: 1px solid #FFFFD0;
-                font-family: "UbuntuMono";
-            }
-            .date {
-                color:red;
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body style="background-image: url(http://mgd1981.github.io/shopkeep/img/background-tile.gif);background-attachment:fixed"> 
         <table style="width:600px;margin-top:0px;margin-bottom:0px" border="2" bordercolor="#FFFFD0" cellpadding="0" cellspacing="0" align="center">
@@ -58,6 +26,13 @@
                 <tr>
                     <td bgcolor="#2C2416">
                         <ul>
+                            <li id="2014-05-28" class="devlogpost">
+                                <span class="date">05-28-2014</span>
+<br>
+The road to success is paved with animated gifs.  Here's the new (though likely still temporary) shopkeeper image:<br>
+<br>
+<center><img src="img/shopkeeper.gif" border=1 alt="Animated shopkeeper" width="100%"></center>
+                            </li>
                             <li id="2014-05-26" class="devlogpost">
                                 <span class="date">05-26-2014</span>
 <br>
@@ -68,7 +43,7 @@ No new screenshots, but SK does, as promised, now have monsters, fighting, and t
 <br>
 Not only do heroes now exist in the active game world (well, at least the one I put in town at the beginning), but they also get bored and, upon getting bored, seek out adventure at the nearest adventure site!  For now I put in one random adventure site in at the game start, so I have little tiles for caves, towers, and dungeons, as well as a universal hero tile; all subject to change, of course.  Here's a pic of a hero heading for a cave, having left town:<br>
 <br>
-<center><img src="img/world_screen_2014-05-22.png" border=1 alt="Shop view as of 5/14/2014" width="100%"></center>
+<center><img src="img/world_screen_2014-05-22.png" border=1 alt="World view as of 5/22/2014" width="100%"></center>
 <br>
 I suppose the next logical step is to add monsters, fighting, and treasure.  Once a hero has enough of that, it can get bored again (assuming it survives) and head back to town, and then I can start on shop interactions!
                             </li>
@@ -77,9 +52,9 @@ I suppose the next logical step is to add monsters, fighting, and treasure.  Onc
 <br>
 The info screens are at a decent place, although will surely be revised as devlopment continues.  I'll likely have to build in a text scrolling function at some point, as well.  A couple of screenshots:<br>
 <br>
-<center><img src="img/world_screenshot_2014-05-21.png" border=1 alt="Shop view as of 5/14/2014" width="100%"></center>
+<center><img src="img/world_screenshot_2014-05-21.png" border=1 alt="World view as of 5/21/2014" width="100%"></center>
 <br>
-<center><img src="img/town_screenshot_2014-05-21.png" border=1 alt="Shop view as of 5/14/2014" width="100%"></center>
+<center><img src="img/town_screenshot_2014-05-21.png" border=1 alt="Shop view as of 5/21/2014" width="100%"></center>
 <br>
 I originally had the game starting with a random number of sites between a certain range, but thought it would be better to always have a copper mine, plus one random farm and one random sawmill, so that's what you see there.  It's very nice to see the seconds tick by until the next harvest at a site; the passing of time makes it seem like a real game to me.<br>
 <br>

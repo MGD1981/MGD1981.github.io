@@ -1,0 +1,31 @@
+
+@font-face {
+    font-family: "UbuntuMono";
+    src: url(http://matthewgregorydavis.com/fonts/UbuntuMono-R.ttf) format("truetype");
+}
+@font-face {
+    font-family: "UbuntuMonoBold";
+    src: url(http://matthewgregorydavis.com/fonts/UbuntuMono-B.ttf) format("truetype");
+}
+a {
+    color:#FFFFD0;
+    font-family: "UbuntuMonoBold";
+    text-decoration:none;
+}
+ul {
+    padding: 0.5em 0;
+    margin: 0;
+    clear:left;
+}
+li.devlogpost {
+    list-style:none inside;
+    clear: left;
+    margin-bottom: 20px;
+    padding: 5px 10px 10px 10px;
+    background:#272727;
+    color:#FFFFD0;
+    border: 1px solid #FFFFD0;
+    font-family: "UbuntuMono";
+}
+.date {
+    color:red;
