@@ -1,0 +1,71 @@
+div.matt-is-cool {
+    content:url(http://matthewgregorydavis.com/img/matt_is_cool.jpg);
+    width: 100%;
+}
+div.block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    padding-top: 50px;
+}
+/*#wrapper {
+    display: block;
+    position: relative;
+    width: 100%;
+    font-family:"UbuntuMono";
+}*/
+/*#main {
+    position: relative;
+    display: block;
+    max-width: 900px;
+    padding-top: 50px;
+    z-index: 1;
+}*/
+div.column-1 {
+    float: left;
+    display: inline;
+    width: 144px;
+    min-height: 100px;
+    margin-right: 24px;
+}
+div.column-2 {
+    float: left;
+    display: inline;
+    width: 100%;
+    max-width: 648px;
+    min-height: 100px;
+}
+body {
+   background:#B9AD8B;
+   width: auto;
+}
+h1 {
+    color:black;
+    font-family:"UbuntuMono";
+}
+h2 {
+    font-family: "UbuntuMono";
+    color:black;
+}
+@font-face {
+    font-family: "UbuntuMono";
+    src: url(http://matthewgregorydavis.com/fonts/UbuntuMono-R.ttf) format("truetype");
+}
+@font-face {
+    font-family: "UbuntuMonoBold";
+    src: url(http://matthewgregorydavis.com/fonts/UbuntuMono-B.ttf) format("truetype");
+}
+a {
+    color:#FFFFD0;
+    font-family: "UbuntuMonoBold";
+    text-decoration:none;
+}
+p {
+    clear: left;
+    margin-bottom: 20px;
+    padding: 5px 10px 10px 10px;
+    font-family: "UbuntuMono";
+}
+.date {
+    color:red;
