@@ -1,7 +1,7 @@
 :set mouse=a
 :set t_Co=256
 set tabstop=4 shiftwidth=4 smarttab expandtab softtabstop=4 autoindent
-colors MGD.vim
+colors MGD
 
 " All system-wide defaults are set in $VIMRUNTIME/debian.vim and sourced by
 " the call to :runtime you can find below.  If you wish to change any of those
