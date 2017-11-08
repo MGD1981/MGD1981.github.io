@@ -1,4 +1,5 @@
 " Vim color file by Matthew Gregory Davis, based on Slate
+:set t_ut=
 :set background=dark
 :highlight clear
 if version > 580
